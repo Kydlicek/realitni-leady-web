@@ -17,16 +17,16 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="lg:w-3/4 ml-10 ">
             <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-              Proč jsme tou správnou volbou
+              Proč jsme tou správnou volbou pro tvůj růst
             </h2>
             <p className="mt-3 text-muted-foreground">
-              Naše platforma je navržena tak, aby podpořila váš růst jako
-              realitního makléře. Spojujeme vás přímo s lidmi, kteří chtějí
-              prodat nebo pronajmout svou nemovitost, a poskytujeme vám
-              nástroje, které vám pomohou efektivně oslovit nové klienty. Díky
-              našim kvalitním leadům můžete soustředit svou energii na to, co
-              umíte nejlépe – uzavírat obchody a budovat si pověst nejlepšího
-              makléře.
+              Naše platforma je navržena pro realitní makléře, kteří chtějí růst
+              a rozvíjet své podnikání. Spojujeme tě přímo s lidmi, kteří právě
+              teď chtějí prodat nebo pronajmout svou nemovitost. Díky našim
+              specializovaným nástrojům získáš přímý přístup k leadům, které
+              můžeš snadno přeměnit na dlouhodobé klienty. Soustřeď svou energii
+              na to, co umíš nejlépe – uzavírat výhodné obchody a budovat si
+              pověst spolehlivého odborníka.
             </p>
             {/* <Button className="mt-10 w-4/12">
               <RegisterLink className="flex items-center">
@@ -48,8 +48,9 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                   Přímý přístup k aktivním zájemcům
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Spojujeme vás s lidmi, kteří právě teď chtějí prodat nebo
-                  pronajmout svou nemovitost.
+                  Spojujeme vás s lidmi, kteří jsou připraveni jednat – prodat
+                  nebo pronajmout svou nemovitost. Díky tomu získáš okamžité
+                  obchodní příležitosti.
                 </p>
               </div>
             </div>
@@ -62,12 +63,12 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Úspora času a energie
+                  Přizpůsobte leady podle svých potřeb
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Díky ověřeným kontaktům můžete přeskočit složité kroky hledání
-                  nových klientů a zaměřit se přímo na ty, kteří opravdu
-                  potřebují vaše služby.
+                  Vyberte si lokalitu, typ nemovitosti i zaměření na prodej nebo
+                  pronájem. Získáš tak leady, které přesně odpovídají tvým
+                  obchodním cílům.
                 </p>
               </div>
             </div>
@@ -80,12 +81,12 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Budování důvěryhodné pověsti
+                  všechny informace o klientovi na dosah ruky
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Naše kvalitní leady vám umožní soustředit se na uzavírání
-                  obchodů, což posiluje vaši pověst odborníka, kterému klienti
-                  mohou důvěřovat.
+                  Můžeš se plně věnovat hovoru. Naše platforma ti poskytuje
+                  veškeré detaily o klientovi na jednom místě, takže máš vždy po
+                  ruce vše potřebné pro efektivní komunikaci.
                 </p>
               </div>
             </div>

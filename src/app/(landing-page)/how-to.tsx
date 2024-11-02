@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
-import { Button } from "@/components/ui/button";
+import { CaptionMakerButton } from "@/components/ActionLink";
 
 export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
   return (
@@ -16,7 +16,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
           {/* End Col */}
 
           <LeadCard
-            imageSrc="/img/rema.png"
+            imageSrc="/icons/form.svg"
             altText="remax"
             title="Vyberte si leady podle vaší lokality"
             description="Zvolte si počet a lokalitu leadů, které nejlépe odpovídají vašim
@@ -30,7 +30,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                 všechny kontakty připravené k použití bez čekání."
           />
           <LeadCard
-            imageSrc="/img/rema.png"
+            imageSrc="/icons/form.svg"
             altText="remax"
             title="Oslovte vaše budoucí klienty"
             description="Kontaktujte klienty, kteří právě teď hledají pomoc makléře, a
@@ -40,9 +40,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
         </div>
         {/* End Grid */}
         <div className="flex justify-center">
-          <Button className="mt-20">
-            <RegisterLink>Chci kvalitní leady</RegisterLink>
-          </Button>
+          <CaptionMakerButton text="Začněte zdarma" />
         </div>
       </div>
       {/* End Icon Blocks */}

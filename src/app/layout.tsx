@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-
+import { AuthProvider } from "./AuthProvider";
 import { Roboto } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
@@ -13,8 +13,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Subtitle Maker",
-  description: "Kinde with NextJS App Router",
+  title: "Realitní leady",
+  description: "Realitní leady pro makléře",
 };
 
 export default async function RootLayout({
@@ -23,12 +23,16 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={roboto.className}>
-      <body className="min-h-screen">
-        <NavBar></NavBar>
-        <main className="bg-slate-50 ">{children}</main>
-        <Footer></Footer>
-      </body>
-    </html>
+    <AuthProvider>
+      <html lang="en" className="{roboto.className}">
+        <body className="flex flex-col min-h-screen ">
+          <NavBar></NavBar>
+          <main className=" flex-grow container   min-w-full bg-slate-100">
+            {children}
+          </main>
+          <Footer></Footer>
+        </body>
+      </html>
+    </AuthProvider>
   );
 }

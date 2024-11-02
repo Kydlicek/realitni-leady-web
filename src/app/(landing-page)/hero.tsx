@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { CaptionMakerButton } from "@/components/ActionLink";
 import Image from "next/image";
 export default function HeroSectionWithEmailInput() {
   return (
@@ -18,7 +17,7 @@ export default function HeroSectionWithEmailInput() {
               nemovitost
             </p>
             <div className="mt-5 lg:mt-8 flex flex-col sm:items-center gap-2 sm:flex-row sm:gap-3">
-              <Button className="w-min">Vyzkoušejte zdarma</Button>
+              <CaptionMakerButton text="Vyzkoušet zdarma " />
             </div>
             {/* Brands */}
             <div className="mt-6 lg:mt-12">
