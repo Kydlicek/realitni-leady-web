@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CaptionMakerButton } from "@/components/ActionLink";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 ">
@@ -9,16 +10,16 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="flex space-x-4">
-          <a href="#about" className="text-gray-400 hover:text-white">
-            O nás
-          </a>
-          <a href="#services" className="text-gray-400 hover:text-white">
-            Služby
-          </a>
-          <a href="#contact" className="text-gray-400 hover:text-white">
+        <div className="flex space-x-8 text-gray-400">
+          <Link href="/" className="" prefetch={false}>
+            Domů
+          </Link>
+          <Link href="/contact" className="" prefetch={false}>
             Kontakt
-          </a>
+          </Link>
+          <Link href="/pricing" className="" prefetch={false}>
+            Ceník
+          </Link>
         </div>
 
         {/* Social Links */}

@@ -13,7 +13,7 @@ export default function HeroSectionWithEmailInput() {
               Realitní leady
             </h1>
             <p className="mt-3 text-xl text-muted-foreground">
-              Propojíme vás s lidmi, kteří chtějí prodat nebo pronajmout svou
+              Propojíme tě s lidmi, kteří chtějí prodat nebo pronajmout svou
               nemovitost
             </p>
             <div className="mt-5 lg:mt-8 flex flex-col sm:items-center gap-2 sm:flex-row sm:gap-3">

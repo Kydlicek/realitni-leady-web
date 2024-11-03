@@ -79,7 +79,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  všechny informace o klientovi na dosah ruky
+                  Všechny informace o klientovi na dosah ruky
                 </h3>
                 <p className="mt-1 text-muted-foreground">
                   Zaměř se plně na hovor – všechny potřebné detaily o klientovi

@@ -16,31 +16,31 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
           {/* End Col */}
 
           <LeadCard
-            imageSrc="/icons/form.svg"
+            imageSrc="/img/screen-ordering.png"
             altText="remax"
-            title="Vyberte si leady podle vaší lokality"
-            description="Zvolte si počet a lokalitu leadů, které nejlépe odpovídají vašim
+            title="Vyber si leady podle lokality"
+            description="Zvol si počet a lokalitu leadů, které nejlépe odpovídají vašim
               potřebám."
           />
           <LeadCard
             imageSrc="/img/rema.png"
             altText="remax"
-            title="Leady dorazí přímo na váš profil"
-            description="Vaše objednávka je doručena přímo na váš profil, takže máte
+            title="Leady dorazí přímo na tvůj profil"
+            description="Objednávku ti doručíme přímo na tvůj profil, takže máš
                 všechny kontakty připravené k použití bez čekání."
           />
           <LeadCard
             imageSrc="/icons/form.svg"
             altText="remax"
-            title="Oslovte vaše budoucí klienty"
-            description="Kontaktujte klienty, kteří právě teď hledají pomoc makléře, a
-              nabídněte jim své odborné služby. Každý lead je příležitost k
-              růstu!"
+            title="Oslov tvoje budoucí klienty"
+            description="Kontaktuj klienty, kteří mají zájem o prodej nemovitosti a
+              nabídni jim své odborné služby. Každý lead je příležitost k
+              úspěšnému obchodu!"
           />
         </div>
         {/* End Grid */}
-        <div className="flex justify-center">
-          <CaptionMakerButton text="Začněte zdarma" />
+        <div className="flex justify-center mt-24">
+          <CaptionMakerButton text="Začni zdarma" className="w-full" />
         </div>
       </div>
       {/* End Icon Blocks */}
@@ -57,18 +57,18 @@ interface CardWithForm {
 
 const LeadCard = ({ imageSrc, altText, title, description }: CardWithForm) => {
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 p-9 bg-gray-50 ">
       <h3 className="text-base sm:text-lg font-semibold">{title}</h3>
       <p className="text-muted-foreground">{description}</p>
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <Image
           src={imageSrc} // Dynamic image path or URL
           alt={altText} // Dynamic alt text for accessibility
           width={250} // Set width as needed
-          height={80} // Set height as needed
+          height={150} // Set height as needed
           priority // (Optional) If you want this image to load immediately
         />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -2,19 +2,22 @@ import Link from "next/link";
 import { Button } from "../components/ui/button";
 
 interface CaptionMakerButtonProps {
-  text: string;
+  text?: string;
+  className?: string; // Optional className prop for custom styling
 }
 
-export function CaptionMakerButton({ text }: CaptionMakerButtonProps) {
+export function CaptionMakerButton({
+  text = "Chci Leady",
+  className = "",
+}: CaptionMakerButtonProps) {
   return (
-    <Button>
-      <Link
-        href="https://captionmaker.kinde.com/knock-knock"
-        target="_blank" // opens link in a new window
-        rel="noopener noreferrer" // improves security
-      >
-        {text}
-      </Link>
-    </Button>
+    <Link
+      href="https://captionmaker.kinde.com/knock-knock"
+      target="_blank" // Opens link in a new window
+      rel="noopener noreferrer" // Improves security
+      // Optional styling for Link itself
+    >
+      <Button className={className}>{text}</Button>
+    </Link>
   );
 }
