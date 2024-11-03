@@ -59,7 +59,7 @@ const LeadCard = ({ imageSrc, altText, title, description }: CardWithForm) => {
   return (
     <div className="flex flex-col gap-6 p-9 bg-gray-50 ">
       <h3 className="text-base sm:text-lg font-semibold">{title}</h3>
-      <p className="text-muted-foreground">{description}</p>
+      <p className="text-gray-800">{description}</p>
       {/* <div className="flex justify-center">
         <Image
           src={imageSrc} // Dynamic image path or URL

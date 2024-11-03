@@ -12,7 +12,7 @@ export default function HeroSectionWithEmailInput() {
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
               Realitní leady
             </h1>
-            <p className="mt-3 text-xl text-muted-foreground">
+            <p className="mt-3 text-xl text-gray-800  ">
               Propojíme tě s lidmi, kteří chtějí prodat nebo pronajmout svou
               nemovitost
             </p>
@@ -21,7 +21,7 @@ export default function HeroSectionWithEmailInput() {
             </div>
             {/* Brands */}
             <div className="mt-6 lg:mt-12">
-              <span className="text-xs font-medium uppercase">
+              <span className="text-xs font-medium uppercase ">
                 Používáno makléři:
               </span>
               <div className="lg:col-span-4 mt-10 lg:mt-0 ">

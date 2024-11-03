@@ -14,10 +14,10 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
 
         <div className="grid md:grid-cols-2 gap-12">
           <div className="lg:w-3/4 ml-10 ">
-            <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
+            <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
               Proč jsme tou správnou volbou pro tvůj růst
             </h2>
-            <p className="mt-3 text-muted-foreground">
+            <p className="mt-3 text-gray-800">
               Naše platforma je navržena pro realitní makléře, jako ty, kteří
               chtějí růst a rozvíjet své podnikání. Spojujeme tě přímo s lidmi,
               kteří právě teď chtějí prodat nebo pronajmout svou nemovitost.
@@ -45,7 +45,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                 <h3 className="text-base sm:text-lg font-semibold">
                   Přímý přístup k aktivním zájemcům
                 </h3>
-                <p className="mt-1 text-muted-foreground">
+                <p className="mt-1 text-gray-800">
                   Spojujeme tě s lidmi, kteří jsou připraveni jednat – prodat
                   nebo pronajmout svou nemovitost. Díky tomu získáš okamžité
                   obchodní příležitosti.
@@ -63,7 +63,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                 <h3 className="text-base sm:text-lg font-semibold">
                   Přizpůsob si leady podle svých preferencí
                 </h3>
-                <p className="mt-1 text-muted-foreground">
+                <p className="mt-1 text-gray-800">
                   Vyberte si lokalitu, typ nemovitosti i zaměření na prodej nebo
                   pronájem. Získáš tak leady, které přesně odpovídají tvojí
                   obchodní strategii.
@@ -81,7 +81,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                 <h3 className="text-base sm:text-lg font-semibold">
                   Všechny informace o klientovi na dosah ruky
                 </h3>
-                <p className="mt-1 text-muted-foreground">
+                <p className="mt-1 text-gray-800">
                   Zaměř se plně na hovor – všechny potřebné detaily o klientovi
                   ti dodáme na jednom místě. Máš tak vždy po ruce vše, co
                   potřebuješ pro efektivní komunikaci.

@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
 
         {/* Navigation Links */}
-        <div className="flex space-x-8 text-gray-400">
+        <div className="flex space-x-8 text-gray-100">
           <Link href="/" className="" prefetch={false}>
             Domů
           </Link>
@@ -49,7 +49,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-gray-500 text-sm mt-4">
+      <div className="text-center text-gray-100 text-sm mt-4">
         &copy; {new Date().getFullYear()} Realitní Leady. Všechna práva
         vyhrazena.
       </div>
