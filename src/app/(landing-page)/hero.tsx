@@ -29,15 +29,15 @@ export default function HeroSectionWithEmailInput() {
                   <Image
                     src="/img/image.png" // Path for local images or URL for external
                     alt="M&M realitní společnost"
-                    width={100} // Set width
-                    height={80} // Set height
+                    width={150} // Set width
+                    height={120} // Set height
                     priority // (Optional) If you want this image to load immediately
                   />
                   <Image
                     src="/img/rema.png" // Path for local images or URL for external
                     alt="remax realitní společnost"
-                    width={100} // Set width
-                    height={80} // Set height
+                    width={150} // Set width
+                    height={120} // Set height
                     priority // (Optional) If you want this image to load immediately
                   />
                 </div>
