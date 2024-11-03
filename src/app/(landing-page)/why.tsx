@@ -39,7 +39,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
             <div className="flex">
               {/* Icon */}
               <span className="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border bg-primary text-primary-foreground">
-                <BookOpenIcon className="flex-shrink-0 w-5 h-5" />
+                <MessagesSquareIcon className="flex-shrink-0 w-5 h-5" />
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
@@ -57,7 +57,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
             <div className="flex">
               {/* Icon */}
               <span className="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border  bg-primary text-primary-foreground">
-                <MessagesSquareIcon className="flex-shrink-0 w-5 h-5" />
+                <BookOpenIcon className="flex-shrink-0 w-5 h-5" />
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
