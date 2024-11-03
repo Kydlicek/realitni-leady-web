@@ -32,7 +32,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
           <LeadCard
             imageSrc="/icons/form.svg"
             altText="remax"
-            title="Oslov tvoje budoucí klienty"
+            title="Oslov svoje budoucí klienty"
             description="Kontaktuj klienty, kteří mají zájem o prodej nemovitosti a
               nabídni jim své odborné služby. Každý lead je příležitost k
               úspěšnému obchodu!"
