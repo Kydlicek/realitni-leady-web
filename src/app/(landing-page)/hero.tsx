@@ -27,10 +27,10 @@ export default function HeroSectionWithEmailInput() {
               <div className="lg:col-span-4 mt-10 lg:mt-0 ">
                 <div className="mt-4 flex gap-x-8">
                   <Image
-                    src="/img/image.png" // Path for local images or URL for external
+                    src="/img/MM-resized.png" // Path for local images or URL for external
                     alt="M&M realitní společnost"
-                    width={150} // Set width
-                    height={120} // Set height
+                    width={120} // Set width
+                    height={60} // Set height
                     priority // (Optional) If you want this image to load immediately
                   />
                   {/* sdasld;'asl;'asdl */}
@@ -38,7 +38,7 @@ export default function HeroSectionWithEmailInput() {
                     src="/img/rema.png" // Path for local images or URL for external
                     alt="remax realitní společnost"
                     width={150} // Set width
-                    height={120} // Set height
+                    height={100} // Set height
                     priority // (Optional) If you want this image to load immediately
                   />
                 </div>
