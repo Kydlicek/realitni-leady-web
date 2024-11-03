@@ -33,6 +33,7 @@ export default function HeroSectionWithEmailInput() {
                     height={120} // Set height
                     priority // (Optional) If you want this image to load immediately
                   />
+                  {/* sdasld;'asl;'asdl */}
                   <Image
                     src="/img/rema.png" // Path for local images or URL for external
                     alt="remax realitní společnost"
