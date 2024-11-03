@@ -17,7 +17,7 @@ const ContactPage = () => {
         <p className="text-lg mt-2">
           <strong>Telefon:</strong>{" "}
           <a href="tel:+420123456789" className="text-blue-500 hover:underline">
-            +420 123 456 789
+            +420 734 597 626
           </a>
         </p>
       </div>
