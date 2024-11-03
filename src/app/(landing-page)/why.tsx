@@ -4,8 +4,6 @@ import {
   MessagesSquareIcon,
   ThumbsUpIcon,
 } from "lucide-react";
-import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
-import { Button } from "@/components/ui/button";
 
 export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
   return (
@@ -20,13 +18,13 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
               Proč jsme tou správnou volbou pro tvůj růst
             </h2>
             <p className="mt-3 text-muted-foreground">
-              Naše platforma je navržena pro realitní makléře, kteří chtějí růst
-              a rozvíjet své podnikání. Spojujeme tě přímo s lidmi, kteří právě
-              teď chtějí prodat nebo pronajmout svou nemovitost. Díky našim
-              specializovaným nástrojům získáš přímý přístup k leadům, které
-              můžeš snadno přeměnit na dlouhodobé klienty. Soustřeď svou energii
-              na to, co umíš nejlépe – uzavírat výhodné obchody a budovat si
-              pověst spolehlivého odborníka.
+              Naše platforma je navržena pro realitní makléře, jako ty, kteří
+              chtějí růst a rozvíjet své podnikání. Spojujeme tě přímo s lidmi,
+              kteří právě teď chtějí prodat nebo pronajmout svou nemovitost.
+              Díky našim specializovaným nástrojům získáš přímý přístup k
+              leadům, které můžeš snadno přeměnit na dlouhodobé klienty.
+              Soustřeď svou energii na to, co umíš nejlépe – uzavírat výhodné
+              obchody a budovat si pověst spolehlivého odborníka.
             </p>
             {/* <Button className="mt-10 w-4/12">
               <RegisterLink className="flex items-center">
@@ -48,7 +46,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                   Přímý přístup k aktivním zájemcům
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Spojujeme vás s lidmi, kteří jsou připraveni jednat – prodat
+                  Spojujeme tě s lidmi, kteří jsou připraveni jednat – prodat
                   nebo pronajmout svou nemovitost. Díky tomu získáš okamžité
                   obchodní příležitosti.
                 </p>
@@ -63,12 +61,12 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
               </span>
               <div className="ms-5 sm:ms-8">
                 <h3 className="text-base sm:text-lg font-semibold">
-                  Přizpůsobte leady podle svých potřeb
+                  Přizpůsob si leady podle svých preferencí
                 </h3>
                 <p className="mt-1 text-muted-foreground">
                   Vyberte si lokalitu, typ nemovitosti i zaměření na prodej nebo
-                  pronájem. Získáš tak leady, které přesně odpovídají tvým
-                  obchodním cílům.
+                  pronájem. Získáš tak leady, které přesně odpovídají tvojí
+                  obchodní strategii.
                 </p>
               </div>
             </div>
@@ -84,9 +82,9 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
                   všechny informace o klientovi na dosah ruky
                 </h3>
                 <p className="mt-1 text-muted-foreground">
-                  Můžeš se plně věnovat hovoru. Naše platforma ti poskytuje
-                  veškeré detaily o klientovi na jednom místě, takže máš vždy po
-                  ruce vše potřebné pro efektivní komunikaci.
+                  Zaměř se plně na hovor – všechny potřebné detaily o klientovi
+                  ti dodáme na jednom místě. Máš tak vždy po ruce vše, co
+                  potřebuješ pro efektivní komunikaci.
                 </p>
               </div>
             </div>

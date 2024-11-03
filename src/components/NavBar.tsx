@@ -3,14 +3,8 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { CaptionMakerButton } from "@/components/ActionLink";
 import Image from "next/image";
-import {
-  RegisterLink,
-  LoginLink,
-  LogoutLink,
-} from "@kinde-oss/kinde-auth-nextjs/components";
+
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import Avatar from "@/components/(nav-comps)/Avatar";
-import Path from "@/components/(nav-comps)/Path";
 
 export default async function Component() {
   const { isAuthenticated, getUser } = getKindeServerSession();
