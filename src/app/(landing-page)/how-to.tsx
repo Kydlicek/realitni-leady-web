@@ -18,9 +18,8 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
           <LeadCard
             imageSrc="/img/screen-ordering.png"
             altText="remax"
-            title="Vyber si leady podle lokality"
-            description="Zvol si počet a lokalitu leadů, které nejlépe odpovídají vašim
-              potřebám."
+            title="Leady podle vlasní obchodní stategie"
+            description="Vyber si leady podle svých obchodních preferencí – zvol si lokalitu, typ nemovitosti i transakci (prodej nebo pronájem) a zaměř se na klienty, které hledáš."
           />
           <LeadCard
             imageSrc="/img/rema.png"
