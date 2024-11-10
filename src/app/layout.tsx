@@ -4,7 +4,8 @@ import { AuthProvider } from "./AuthProvider";
 import { Roboto } from "next/font/google";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/components/Header";
 
 const roboto = Roboto({
@@ -32,6 +33,8 @@ export default async function RootLayout({
           <NavBar></NavBar>
           <main className=" flex-grow container   min-w-full bg-slate-100">
             {children}
+            <SpeedInsights />
+            <Analytics />
           </main>
           <Footer></Footer>
         </body>
