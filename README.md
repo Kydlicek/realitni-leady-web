@@ -1,78 +1,100 @@
-# Kinde Starter Kit - NextJS with full App Router support
+### Realitní Leady - Webová stránka pro sběr kontaktů potenciálních zákazníků
 
-This is a starter kit to get you started with Kinde on Next.js
+---
 
-## Dependancies
+#### Popis projektu
+**Realitní Leady** je webová stránka postavená na Next.js, která slouží k jednoduchému sběru kontaktů potenciálních zájemců o realitní nabídky. Tato stránka umožňuje snadné sbírání kontaktních údajů uživatelů, kteří mohou být po připojení k backendu a autentifikaci prostřednictvím **Kinde Authentication** převedeni na reálné uživatele.
 
-- node.js (>=18)
-- Kinde account - Get free account [here](https://app.kinde.com/register)
-  - Kinde back-end web application setup
+---
 
-## Setup your local environment
+### Požadavky
 
-1. [Fork](https://github.com/kinde-starter-kits/kinde-nextjs-app-router-starter-kit/fork)
-2. Clone the repository
+Předtím, než začnete s nastavením, ujistěte se, že máte nainstalovány následující nástroje:
 
-```
-git clone https://github.com/<your_github_username>/kinde-nextjs-app-router-starter-kit.git
-```
+- **Node.js** - Verze 14 nebo novější
+- **npm** - Součástí Node.js
 
-3. Within the project folder install the dependancies
+---
 
-```
-> cd kinde-nextjs-app-router-starter-kit
-> npm i
-```
+### Instrukce pro nastavení
 
-4. Set up your environment
-   
-Rename `.env.local.sample` to `.env.local`
+#### 1. Instalace závislostí
+Začněte tím, že přejdete do složky projektu a nainstalujete všechny potřebné balíčky. Spusťte následující příkaz:
 
-Update the file with your application settings.  These can be found within the backend application details within the Kinde dashboard
-```
-KINDE_CLIENT_ID=<your_kinde_client_id>
-KINDE_CLIENT_SECRET=<your_kinde_client_secret>
-KINDE_ISSUER_URL=https://<your_kinde_subdomain>.kinde.com
+```bash
+cd realitni-leady
+npm install
 ```
 
+Tento příkaz stáhne a nainstaluje všechny požadované závislosti pro váš projekt.
 
-## Setup Kinde
+---
 
-Within your back-end web application update your settings
+#### 2. Nastavení prostředí
+Aby projekt správně fungoval, musíte nastavit environmentální proměnné, které umožní propojení s vaší backendovou aplikací a dalšími službami.
 
-**Allowed callback URLs**
+1. **Přejmenujte vzorový soubor prostředí:**
+   V kořenové složce projektu najdete soubor `.env.local.sample`. Přejmenujte tento soubor na `.env.local`:
 
-```
-http://localhost:3000/api/auth/kinde_callback
-```
+   ```bash
+   mv .env.local.sample .env.local
+   ```
 
-**Allowed logout redirect URLs**
+2. **Aktualizujte soubor s environmentálními proměnnými:**
+   Otevřete soubor `.env.local` a přidejte své nastavení:
 
-```
-http://localhost:3000
-```
+   ```env
+   KINDE_CLIENT_ID=<váš_kinde_client_id>
+   KINDE_CLIENT_SECRET=<váš_kinde_client_secret>
+   KINDE_ISSUER_URL=https://<váš_kinde_subdomén>.kinde.com
+   KINDE_SITE_URL=<url_vaší_stránky>
+   KINDE_POST_LOGOUT_REDIRECT_URL=<url_po_odhlášení>
+   KINDE_POST_LOGIN_REDIRECT_URL=<url_po_přihlášení>
+   ```
 
-**Note: When you deploy your application, these URLs will have to be updated accordingly**
+- **KINDE_CLIENT_ID**: Získáte v Kinde dashboardu pod nastavením aplikace.
+- **KINDE_CLIENT_SECRET**: Najdete v dashboardu.
+- **KINDE_ISSUER_URL**: URL pro vaši Kinde subdoménu (např. https://your-subdomain.kinde.com).
+- **KINDE_SITE_URL**: URL vaší stránky (např. https://realitni-leady.cz).
+- **KINDE_POST_LOGOUT_REDIRECT_URL**: URL, na kterou budou uživatelé přesměrováni po odhlášení (např. https://realitni-leady.cz).
+- **KINDE_POST_LOGIN_REDIRECT_URL**: URL, na kterou budou uživatelé přesměrováni po přihlášení (např. https://realitni-leady.cz/dashboard).
 
+---
 
-## Start your app
+#### 3. Spuštění vývojového serveru
+Po nastavení environmentálních proměnných můžete spustit vývojový server, který zobrazí vaši webovou stránku. Použijte následující příkaz:
 
-```
+```bash
 npm run dev
 ```
 
-open `http://localhost:3000` in your browser
+Vaše stránka bude dostupná na adrese [http://localhost:3000](http://localhost:3000).
 
-## Create your first user
+---
 
-Click on `Sign up` and register your first user for your business!
+#### 4. Nasazení
+Pokud budete připraveni nasadit stránku do produkčního prostředí, můžete využít platformy jako **Vercel**, **Netlify** nebo jakoukoli jinou platformu podporující Next.js. Nezapomeňte přidat environmentální proměnné v nastavení nasazení na platformě.
 
-Within the Kinde Dashboard, you will see your new user listed within the user view. 🚀
+---
 
-# Resources
-- [Kinde Next.js SDK Docs](https://kinde.com/docs/developer-tools/nextjs-sdk/)
-- [Kinde Management API Docs](https://kinde.com/api/docs/#kinde-management-api)
+### Přehled projektu
 
-# Get help
-- [Discord](https://discord.gg/wHX6j7wG5d)
-- [Slack](https://join.slack.com/t/thekindecommunity/shared_invite/zt-26hdaavyc-CfOa06vP23guSwK~~OpFMQ)
+Tato webová stránka je navržena pro generování realitních leadů. Poskytuje formulář pro sběr kontaktů, kteří mají zájem o realitní nabídky, a následně je můžete spojit s realitními makléři nebo agenturami.
+
+- **Kinde Authentication**: Pomocí Kinde ověříme uživatele a zajistíme bezpečný přístup.
+- **Jednoduchý design**: Stránka je minimalistická a zaměřuje se na efektivní sběr informací.
+- **Optimalizováno pro konverzi**: Stránka je navržena tak, aby přitahovala zájemce a přeměňovala návštěvníky na leady.
+
+---
+
+### Kontakt
+
+Pokud máte jakékoliv dotazy nebo potřebujete podporu, neváhejte nás kontaktovat!
+
+---
+
+### Závěr
+
+Tento projekt vám umožní snadno spustit webovou stránku pro generování realitních leadů. Použití **Kinde** pro správu uživatelů vám zajistí bezpečný a efektivní způsob, jak se spojit se zájemci o realitní nabídky.
+
+Pokud potřebujete jakoukoli pomoc při nastavení nebo nasazení, rádi vám pomůžeme! 😊
