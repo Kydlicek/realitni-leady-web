@@ -8,7 +8,7 @@ import {
   SelectItem,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { CaptionMakerButton } from "@/components/ActionLink";
+import { LoginButton } from "@/components/ActionLink";
 
 const LeadRequestForm = () => {
   const [location, setLocation] = useState("");
@@ -118,7 +118,7 @@ const LeadRequestForm = () => {
         </p>
       </div>
       {/* Submit Button */}
-      <CaptionMakerButton text="Odeslat Poptávku" className="w-full" />
+      <LoginButton text="Odeslat Poptávku" className="w-full" />
     </div>
   );
 };

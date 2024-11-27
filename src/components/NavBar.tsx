@@ -1,7 +1,7 @@
 import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { CaptionMakerButton } from "@/components/ActionLink";
+import { LoginButton } from "@/components/ActionLink";
 import Image from "next/image";
 
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
@@ -46,7 +46,7 @@ export default async function Component() {
             >
               Ceník
             </Link>
-            <CaptionMakerButton text="Přihlásit se" />
+            <LoginButton text="Přihlásit se" />
           </div>
         </SheetContent>
         {/* <h1 className="text-2xl font-bold lg:hidden">
@@ -79,7 +79,7 @@ export default async function Component() {
         >
           Ceník
         </Link>
-        <CaptionMakerButton text="Přihlásit se" />
+        <LoginButton text="Přihlásit se" />
       </nav>
     </header>
   );

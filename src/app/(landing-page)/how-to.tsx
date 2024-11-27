@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { RegisterLink } from "@kinde-oss/kinde-auth-nextjs/components";
-import { CaptionMakerButton } from "@/components/ActionLink";
+import { LoginButton } from "@/components/ActionLink";
 
 export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
   return (
@@ -39,7 +39,7 @@ export default function IconSectionDescriptionOnLeftIconBlocksOnRight() {
         </div>
         {/* End Grid */}
         <div className="flex justify-center mt-24">
-          <CaptionMakerButton text="Začni zdarma" className="w-full" />
+          <LoginButton text="Začni zdarma" className="w-full" />
         </div>
       </div>
       {/* End Icon Blocks */}
